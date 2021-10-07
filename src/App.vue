@@ -1,16 +1,18 @@
 <template>
-  <div>
-
-  </div>
+	<div>
+		<GiphyViewer />
+	</div>
 </template>
 
 <script>
 
-export default {
-  name: 'App',
-  components: {
+import GiphyViewer from '@/components/GiphyViewer.vue'
 
-  }
+export default {
+	name: 'App',
+	components: {
+		GiphyViewer
+	}
 }
 </script>
 

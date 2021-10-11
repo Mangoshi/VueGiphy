@@ -1,7 +1,5 @@
 <template>
-	<div>
-		<GiphyViewer />
-	</div>
+	<GiphyViewer />
 </template>
 
 <script>
